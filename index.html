@@ -4,8 +4,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>first git</title>
+    <style>
+       nav ul>li{
+            list-style: none;
+            display: inline;
+            margin-right: 15px;
+        }
+        nav ul li>a{
+            color: black;
+            text-decoration: none;
+        }
+        .btn{
+            padding:  10px 30px;
+            background-color: tomato;
+            outline: none;
+            border: none;
+            border-radius: 9px;
+            color: wheat;
+            cursor: pointer;
+            font-weight: 600;
+        }
+        .btn:hover{
+            background-color: salmon;
+            border: 1px solid black;
+            transition: ease-in-out .5s;
+        }
+        .team>h3{
+            color: burlywood;
+            font-size: 1.5rem;
+        }
+        .team>p{
+            color: rgb(87, 82, 82);
+        }
+    </style>
 </head>
 <body>
-    
+    <main>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section>
+            <div class="banner">
+                <img src="images/Bigesport-Cover-Images.jpg" alt="" width="350px" height="auto">
+            </div>
+            <div class="team">
+                <h3>Join Our Team</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed in placeat nulla sint voluptatibus illo eveniet quis vel voluptatum quia.</p>
+                <button class="btn">Join Us</button>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
